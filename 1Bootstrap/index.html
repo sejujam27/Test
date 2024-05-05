@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pune Vidyarthi Griha's College of Engineering & S.S. Dhamankar institute of management, Nashik </title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+        background-image: url('CLG.jpg');
+    }
+    /* Add custom styles here */
+    /* Sidebar */
+    .sidebar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 250px;
+      background-color: #333;
+      padding-top: 20px;
+    }
+    .sidebar a {
+      padding: 10px;
+      display: block;
+      color: #fff;
+      text-decoration: none;
+    }
+    .sidebar a:hover {
+      background-color: #555;
+    }
+    /* Main content */
+    .content {
+      margin-left: 250px;
+      padding: 20px;
+    }
+    /* Cards */
+    .card {
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="sidebar">
+  <a href="#">Home</a>
+  <a href="#">Ecommerce</a>
+  <a href="#">College</a>
+  <a href="#">Exam Admin</a>
+</div>
+
+<div class="content">
+  <h2>Welcome to PVG College of Engineering Dashboard</h2>
+  
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Attendence</h5>
+          <p class="card-text">75%</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Branch</h5>
+          <td>
+            <select name="branch" id="branch">
+                <option value="ns">No select</option>
+                <option value="it">Information Technology</option>
+                <option value="cs">Computer </option>
+                <option value="aids">AIDS </option>
+                <option value="me">Mechanical </option>
+            </select>
+        </td>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Choose Year</h5>
+          <td>
+            <select name="Year" id="Year">
+          <option value="ns">No select</option>
+          <option value="2021">2021</option>
+          <option value="2022">2022</option>
+          <option value="2023">2023</option>
+          <option value="2024">2024</option>
+          <option value="2025">2025</option>
+        </select>
+        </td>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
